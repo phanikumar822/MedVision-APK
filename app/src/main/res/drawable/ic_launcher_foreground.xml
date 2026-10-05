@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Eye Contour -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,54 C34,36 74,36 84,54 C74,72 34,72 24,54 Z" />
+
+    <!-- Iris Circle -->
+    <path
+        android:fillColor="#14B8A6"
+        android:pathData="M54,41 A13,13 0 1,0 54,67 A13,13 0 1,0 54,41 Z" />
+
+    <!-- Pupil / AI Core Aperture -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,48 A6,6 0 1,0 54,60 A6,6 0 1,0 54,48 Z" />
+
+    <!-- Reticle Crosshairs -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M54,34 L54,40 M54,68 L54,74 M34,54 L40,54 M68,54 L74,54" />
+
+    <!-- Retina AI Scan Point / Specular Glow -->
+    <path
+        android:fillColor="#5EEAD4"
+        android:pathData="M51.5,49 A1.8,1.8 0 1,0 51.5,52.6 A1.8,1.8 0 1,0 51.5,49 Z" />
+</vector>

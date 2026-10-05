@@ -1,0 +1,6 @@
+{
+  "name": "MedVisionAI",
+  "description": "AI-assisted Diabetic Retinopathy screening platform powered by EfficientNet-B0 and Grad-CAM explainability for clinical and field use.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
